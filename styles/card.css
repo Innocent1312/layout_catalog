@@ -65,7 +65,12 @@
       .card__content .card__info .card__stars {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex; }
+        display: flex;
+        width: 91px;
+        height: 15px;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
         .card__content .card__info .card__stars .card__rating-star {
           height: 15px;
           width: 15px;
@@ -80,7 +85,6 @@
                   align-items: center;
           background-size: contain;
           background-repeat: no-repeat;
-          margin-right: 4px;
           background-image: url("../images/star-active.svg"); }
         .card__content .card__info .card__stars .card__rating-star-inactive {
           height: 15px;
