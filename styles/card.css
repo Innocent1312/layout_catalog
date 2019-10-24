@@ -6,9 +6,6 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   max-width: 1024px;
   margin: 0 auto;
   padding: 50px 40px 0; }
@@ -21,7 +18,10 @@
   border-radius: 5px;
   color: #000;
   margin-bottom: 50px;
+  margin-left: 48px;
   padding: 0 14px; }
+  .card:first-child, .card:nth-child(5) {
+    margin-left: 0; }
   .card__img {
     display: block;
     height: 134px;
